@@ -11,10 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      initialRoute: HomeScreen.id,
-      routes: {
-        HomeScreen.id : (context) => HomeScreen(),
-        ScreenTwo.id : (context) => ScreenTwo(),
+    body: Column(
+    children
+        [
+          Text('MUjahid Malana'),
+        ]
+    ),
       },
 
       );
